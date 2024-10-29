@@ -1,0 +1,48 @@
+Cas général:
+order = Order()
+order.action = action
+order.orderType = "..."
+
+Auction: 
+Pre market order, if not filled resubmited after the market opening
+
+    order.tif = "AUC"
+    order.orderType = "MTL"
+    order.totalQuantity = quantity
+    order.lmtPrice = price
+
+Discretionary:
+Market order with a range of price
+
+    order.OrderType = "LMT"
+    order.totalQuantity = quantity
+    order.lmtPrice = price
+    order.discretionaryAmt = discretionaryAmount
+
+Market:
+Market order at the current price
+
+    order.orderType = "MKT"
+    order.totalQuantity = quantity
+
+Market if touched:
+Market order passed if a certain price is reached
+
+    order.orderType = "MIT"
+    order.totalQuantity = quantity
+    order.auxPrice = price
+
+
+Market on Close:
+Market order as close to the market closure as possible
+
+    order.orderType = "MOC"
+    order.totalQuantity = quantity
+
+Market on open:
+Market order at the opening price
+
+    order.orderType = "MKT"
+    order.totalQuantity = quantity
+    order.tif = "OPG"
+

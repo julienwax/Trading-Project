@@ -1,0 +1,11 @@
+All the data in this folder should have a name which complies with these following rules:
+(Only very few old data have do not comply completely with the following rules but aren't used anymore)
+(everything in upper case and an underscore between each segment)
+- ticker 
+- timeframe
+- duration
+- end date
+
+(-LSTM is case the data are used with an LSTM Model)
+
+The OHLCV (Open High Low CLose Volume) columns name should have the first letter in upper case.

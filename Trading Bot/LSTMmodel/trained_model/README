@@ -1,0 +1,5 @@
+All the model saved in trained model should be named witht he following rules:
+- TICKER + "model"
+- the timeframe of the strategy with what it should be used
+- then the seq_length of the model
+- the number of indicators it uses

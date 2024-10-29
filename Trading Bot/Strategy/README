@@ -1,0 +1,12 @@
+Every strategy should manage its data with an apply_save function and define run_strategy, optimize_strategy, and plot_signals functions. Last but not least, the strategy should have a class defined inside with the name of the strategy.
+
+# Documentation
+run_strategy(df, strategy, cash = 100, margin = 1/50, commission = 0.00):
+
+df is the DataFrame on which to backtest the strategy; it must meet the requirements of the strategy. This function plots the backtest in HTML format and prints the results (ROI, max drawdown, Buy & Hold Return, etc.).
+optimize_strategy(df, strategy, cash = 100, margin = 1/50, commission = 0.00):
+
+df is the DataFrame on which to backtest the strategy; it must meet the requirements of the strategy. This function plots an optimization figure (SL coef & TPSL Ratio for axes) and saves it in the Optimization Plot folder. It applies the backtest with the two best parameters regarding ROI.
+plot_signal(df):
+
+The signal plot in HTML format will not have the same indicators; it will depend on the strategy used.

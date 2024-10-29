@@ -1,0 +1,16 @@
+ Success rate = 0.453125
+ Success rate = 0.49253341687552216
+ Success rate = 0.497702589807853
+ Success rate = 0.4765217391304348
+ Success rate = 0.4765217391304348
+ Success rate = 0.5052083333333334
+ Success rate = 0.5052083333333334
+ Success rate = 0.5052083333333334
+ Success rate = 0.5052083333333334
+ Success rate = 0.5
+ Success rate = 0.5
+ Success rate = 0.5
+ Success rate = 0.5
+ Success rate = 0.5
+ Success rate = 0.4947916666666667
+ Success rate = 0.4956521739130435
