@@ -1,7 +1,7 @@
 
 # Algorithmic Trading Project
 This algorithmic trading project is still under development.
-
+I regularly program and update my trading bot, which I initially developed during a supervised project at Telecom Paris. This project includes backtest scripts and logs, LSTM and ARIMA forecasting, a set of trading strategies, and an automated bot.
 # Key Features
 LSTM Models: Utilizes Long Short-Term Memory (LSTM) models for forecasting.
 Implemented Strategies: Includes various trading strategies that have been set up.
